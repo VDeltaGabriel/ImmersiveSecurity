@@ -35,7 +35,7 @@ jobs:
         run: git config --global user.name "Automated Carver Device(tm)"
 
       - name: Verify Changed files
-        uses: tj-actions/verify-changed-files@v16
+        uses: tj-actions/verify-changed-files@v17
         continue-on-error: true
         id: verify-changed-files
         with:
